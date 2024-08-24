@@ -1,0 +1,942 @@
+#box-container {
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+    background-color: #0A0514;
+    margin: 1%;
+    padding: 10px;
+}
+
+#circle1 {
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -400px;
+    left: -400px;
+}
+
+#page2-icon{
+    width: 1300px;
+    height: 1300px;
+    border-radius: 100%;
+    left: 150px;
+    top: 600px;
+    object-fit: cover;
+    position: absolute;
+    border: 20px solid black
+}
+
+#circle2 {
+    width: 820px;
+    height: 820px;
+    background-color: #0A0514;
+    border-radius: 50%;
+    position: absolute;
+    top: -300px;
+    left: -300px;
+}
+
+#circle3 {
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    bottom: -400px;
+    position: absolute;
+    right: -400px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+#circle4 {
+    background-color: #0A0514;
+    width: 500px;
+    height: 500px;
+    bottom: -250px;
+    position: absolute;
+    right: -250px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+#sc1 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 900px;
+}
+
+#sc2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 800px;
+}
+
+#sc3 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 700px;
+}
+
+#sc4 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+}
+
+#sc5 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+}
+
+#sc6 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+}
+
+#about-me {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    position: absolute;
+    font-size: 100px;
+    top: 300px;
+    left: 1600px;
+}
+
+#about-me-text {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 100px;
+    position: absolute;
+    left: 1600px;
+    top: 550px;
+}
+
+#square1 {
+    background-color: #C995B8;
+    height: 250px;
+    width: 1200px;
+    position: absolute;
+    top: 1000px;
+    left: 2800px;
+}
+
+#work-exp {
+    font-size: 110px;
+    position: absolute;
+    top: 925px;
+    left: 2900px;
+    font-family: 'Space Mono', monospace;
+}
+
+#premiere-text {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    font-size: 100px;
+    position: absolute;
+    top: 1150px;
+    left: 1600px;
+}
+
+#premiere-content {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 1425px;
+    left: 1070px;
+    text-align: center; width: 80%;
+}
+
+#skills {
+    font-size: 110px;
+    position: absolute;
+    top: 1600px;
+    left: 3225px;
+    font-family: 'Space Mono', monospace;
+}
+
+#square2 {
+    background-color: #C995B8;
+    height: 225px;
+    width: 600px;
+    position: absolute;
+    bottom: 900px;
+    left: 3125px;
+}
+
+#python {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    font-size: 100px;
+    position: absolute;
+    bottom: 600px;
+    left: 1600px;
+}
+
+#python-content {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 65px;
+    position: absolute;
+    bottom: 600px;
+    left: 1600px;
+}
+
+#frontend {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    position: absolute;
+    font-size: 100px;
+    bottom: 325px;
+    left: 1600px;
+}
+
+#frontend-content {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 70px;
+    position: absolute;
+    bottom: 300px;
+    left: 1600px;
+}
+
+#button1 {
+    position: absolute;
+    bottom: 600px;
+    background-color: #ffffff;
+    left: 250px;
+    justify-content: space-between;
+    border-radius: 200px;
+    width: 1100px;
+    height: 200px;
+}
+
+#button2 {
+    position: absolute;
+    bottom: 375px;
+    background-color: #ffffff;
+    left: 250px;
+    justify-content: space-between;
+    border-radius: 200px;
+    width: 1100px;
+    height: 200px;
+}
+
+#button3 {
+    position: absolute;
+    bottom: 600px;
+    background-color: #653190;
+    left: 1000px;
+    justify-content: space-between;
+    border-radius: 0px 200px 200px 0px;
+    width: 400px;
+    height: 200px;
+}
+
+#button4 {
+    position: absolute;
+    bottom: 375px;
+    background-color: #653190;
+    left: 250px;
+    justify-content: space-between;
+    border-radius: 200px 0px 0px 200px;
+    width: 400px;
+    height: 200px;
+}
+
+#arrow1 {
+    position: absolute;
+    bottom: 150px;
+    left: 1050px;
+    color: rgb(230, 228, 228);
+    font-size: 250px;
+    z-index: 1;
+}
+
+#arrow2 {
+    position: absolute;
+    bottom: -75px;
+    left: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 250px;
+    padding: 5px;
+    z-index: 1;
+}
+
+#continue {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    bottom: 625px;
+    left: 380px;
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#go-back {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    bottom: 400px;
+    left: 800px;
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    #box-container {
+        height: 94vh;
+        margin: 5px
+    }
+    
+    .line-break {
+        display: none;
+    }
+    
+    #circle1 {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        position: absolute;
+        left: -100px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    #circle2 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        top: -75px;
+        position: absolute;
+        left: -75px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #circle3 {
+        background-color: white;
+        width: 175px;
+        height: 175px;
+        bottom: -100px;
+        position: absolute;
+        right: -100px;
+        border-radius: 50%;
+        z-index: 3;
+    }
+
+    #circle4 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        bottom: -90px;
+        position: absolute;
+        right: -90px;
+        border-radius: 50%;
+        z-index: 4;
+    }
+
+    #page2-icon {
+        width: 100px;
+        height: 100px;
+        left: 125px;
+        position: absolute;
+        top: 60px;
+        border: 5px solid black;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    #sc1 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right:55px;
+    }
+
+    #sc2 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 40px;
+    }
+
+    #sc3 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 25px;
+    }
+
+    #sc4 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 60px;
+    }
+
+    #sc5 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 45px;
+    }
+
+    #sc6 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #about-me {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        top: 170px;
+        left: 20px;
+    }
+
+    #about-me-text {
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 9px;
+        position: absolute;
+        top: 195px;
+        left: 20px;
+    }
+    
+    #square1 {
+        background-color: #C995B8;
+        height: 25px;
+        width: 150px;
+        position: relative;
+        top: 235px;
+        left: 95px;
+    }
+
+    #work-exp {
+        font-size: 15px;
+        position: relative;
+        top: 168px;
+        left: 100px;
+        font-family: 'Space Mono', monospace;
+    }
+
+    #premiere-text {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        top: 260px;
+        left: 20px;
+    }
+
+    #premiere-content {
+        color: white;
+        font-size: 9.9px;
+        font-family: 'Space Mono', monospace;
+        position: absolute;
+        top: 285px;
+        left: 25px;
+    }
+
+    #skills {
+        font-size: 15px;
+        position: relative;
+        top: 243px;
+        left: 140px;
+        font-family: 'Space Mono', monospace;
+    }
+    
+    #square2 {
+        background-color: #C995B8;
+        height: 25px;
+        width: 100px;
+        position: relative;
+        top: 320px;
+        left: 120px;
+    }
+
+    #python {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        bottom: 240px;
+        left: 20px;
+    }
+
+    #python-content {
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 9px;
+        position: absolute;
+        bottom: 220px;
+        left: 20px;
+    }
+
+    #frontend {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        bottom: 190px;
+        left: 20px;
+    }
+
+    #frontend-content {
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 10px;
+        position: absolute;
+        bottom: 165px;
+        left: 20px;
+    }
+
+    #button1 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #ffffff;
+        left: 50px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button2 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #ffffff;
+        left: 50px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button3 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #653190;
+        left: 225px;
+        justify-content: space-between;
+        border-radius: 0px 200px 200px 0px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #button4 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #653190;
+        left: 50px;
+        justify-content: space-between;
+        border-radius: 200px 0px 0px 200px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #arrow1 {
+        position: absolute;
+        bottom: 15px;
+        left: 230px;
+        color: rgb(230, 228, 228);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #arrow2 {
+        position: absolute;
+        bottom: -30px;
+        left: 60px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #continue {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 115px;
+        left: 80px;
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #go-back {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 70px;
+        left: 170px;
+        position: absolute;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    #box-container {
+        height: 94vh;
+        margin: 5px
+    }
+
+    .line-break {
+        display: none;
+    }
+    
+    #circle1 {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        position: absolute;
+        left: -100px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    #circle2 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        top: -75px;
+        position: absolute;
+        left: -75px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #circle3 {
+        background-color: white;
+        width: 175px;
+        height: 175px;
+        bottom: -100px;
+        position: absolute;
+        right: -100px;
+        border-radius: 50%;
+        z-index: 3;
+    }
+
+    #circle4 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        bottom: -90px;
+        position: absolute;
+        right: -90px;
+        border-radius: 50%;
+        z-index: 4;
+    }
+
+    #page2-icon {
+        width: 100px;
+        height: 100px;
+        left: 315px;
+        position: absolute;
+        top: 60px;
+        border: 5px solid black;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    #sc1 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right:55px;
+    }
+
+    #sc2 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 40px;
+    }
+
+    #sc3 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 25px;
+    }
+
+    #sc4 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 60px;
+    }
+
+    #sc5 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 45px;
+    }
+
+    #sc6 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #about-me {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        top: 170px;
+        left: 340px;
+    }
+
+    #about-me-text {
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 9px;
+        position: absolute;
+        top: 195px;
+        left: 210px;
+        text-align: center;
+        line-height: 1.2;
+    }
+    
+    #square1 {
+        background-color: #C995B8;
+        height: 25px;
+        width: 150px;
+        position: relative;
+        top: 235px;
+        left: 285px;
+    }
+
+    #work-exp {
+        font-size: 15px;
+        position: relative;
+        top: 168px;
+        left: 290px;
+        font-family: 'Space Mono', monospace;
+    }
+
+    #premiere-text {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        top: 260px;
+        left: 310px;
+    }
+
+    #premiere-content {
+        color: white;
+        font-size: 9.9px;
+        font-family: 'Space Mono', monospace;
+        position: absolute;
+        top: 285px;
+        left: 75px;
+    }
+
+    #skills {
+        font-size: 15px;
+        position: relative;
+        top: 243px;
+        left: 330px;
+        font-family: 'Space Mono', monospace;
+    }
+    
+    #square2 {
+        background-color: #C995B8;
+        height: 25px;
+        width: 100px;
+        position: relative;
+        top: 320px;
+        left: 310px;
+    }
+
+    #python {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        bottom: 230px;
+        left: 350px;
+    }
+
+    #python-content {
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 9px;
+        position: absolute;
+        bottom: 220px;
+        left: 100px;
+    }
+
+    #frontend {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        position: absolute;
+        font-size: 10px;
+        bottom: 185px;
+        left: 300px;
+    }
+
+    #frontend-content {
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 10px;
+        position: absolute;
+        bottom: 165px;
+        left: 150px;
+    }
+
+    #button1 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #ffffff;
+        left: 250px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button2 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #ffffff;
+        left: 250px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button3 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #653190;
+        left: 425px;
+        justify-content: space-between;
+        border-radius: 0px 200px 200px 0px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #button4 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #653190;
+        left: 250px;
+        justify-content: space-between;
+        border-radius: 200px 0px 0px 200px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #arrow1 {
+        position: absolute;
+        bottom: 15px;
+        left: 430px;
+        color: rgb(230, 228, 228);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #arrow2 {
+        position: absolute;
+        bottom: -30px;
+        left: 260px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #continue {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 115px;
+        left: 290px;
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #go-back {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 70px;
+        left: 370px;
+        position: absolute;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,525 @@
+#box-container {
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+    background-color: #0A0514;
+    margin: 1%;
+    padding: 10px;
+}
+
+#circle1 {
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -400px;
+    left: -400px;
+}
+
+#profile-icon {
+    width: 1500px;
+    height: 1500px;
+    border-radius: 100%;
+    right: 800px;
+    top: 600px;
+    object-fit: cover;
+    position: absolute;
+    border: 20px solid black
+}
+
+#circle2 {
+    width: 820px;
+    height: 820px;
+    background-color: #0A0514;
+    border-radius: 50%;
+    position: absolute;
+    top: -300px;
+    left: -300px;
+}
+
+#circle3 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    bottom: 400px;
+    position: absolute;
+    right: 1700px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+#circle4 {
+    background-color: #0A0514;
+    width: 400px;
+    height: 400px;
+    bottom: 450px;
+    position: absolute;
+    right: 1750px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+#greeting {
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    left: 400px;
+    top: 1200px;
+}
+
+#name {
+    font-size: 200px;
+    position: absolute;
+    color: skyblue;
+    font-family: 'Sriracha';
+    left: 400px;
+    top: 1500px;
+    font-weight: lighter;
+}
+
+#button1 {
+    position: absolute;
+    background-color: white;
+    width: 1950px;
+    height: 250px;
+    border-radius: 200px;
+    font-size: 150px;
+    font-family: 'Space Mono', monospace;
+    text-align: left;
+    padding-left: 100px;
+    color: #653190;
+    left: 400px;
+    font-weight: bold;
+    bottom: 400px;
+}
+
+#button2 {
+    position: absolute;
+    background-color: #653190;
+    width: 500px;
+    height: 250px;
+    border-radius: 0px 200px 200px 0px;
+    left: 1850px;
+    bottom: 400px;
+}
+
+#arrow1 {
+    position: absolute;
+    bottom: 180px;
+    left: 1950px;
+    color: rgb(230, 228, 228);
+    font-size: 250px;
+    z-index: 1;
+}
+
+#sc1 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 600px;
+    right: 2500px;
+}
+
+#sc2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 600px;
+    right: 2400px;
+}
+
+#sc3 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 600px;
+    right: 2300px;
+}
+
+#sc4 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+}
+
+#sc5 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+}
+
+#sc6 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+}
+
+@media (max-width: 576px) {
+    #box-container {
+        height: 94vh;
+        margin: 5px
+    }
+
+    #circle1 {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        position: absolute;
+        left: -100px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    #circle2 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        top: -75px;
+        position: absolute;
+        left: -75px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #circle3 {
+        background-color: white;
+        width: 175px;
+        height: 175px;
+        bottom: -100px;
+        position: absolute;
+        right: -100px;
+        border-radius: 50%;
+        z-index: 3;
+    }
+
+    #circle4 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        bottom: -90px;
+        position: absolute;
+        right: -90px;
+        border-radius: 50%;
+        z-index: 4;
+    }
+
+    #sc1 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right:55px;
+    }
+
+    #sc2 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 40px;
+    }
+
+    #sc3 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 25px;
+    }
+
+    #sc4 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 60px;
+    }
+
+    #sc5 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 45px;
+    }
+
+    #sc6 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #profile-icon {
+        width: 190px;
+        height: 190px;
+        border-radius: 100%;
+        right: 70px;
+        top: 100px;
+        object-fit: cover;
+        position: absolute;
+        border: 5px solid black
+    }
+
+    #greeting {
+        font-size: 30px;
+        position: absolute;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        left: 40px;
+        top: 340px;
+    }
+
+    #name {
+        font-size: 24px;
+        position: absolute;
+        color: skyblue;
+        font-family: 'Sriracha';
+        left: 50px;
+        top: 400px;
+        font-weight: lighter;
+    }
+
+    #button1 {
+        position: absolute;
+        background-color: white;
+        width: 250px;
+        height: 40px;
+        border-radius: 200px;
+        font-size: 25px;
+        font-family: 'Space Mono', monospace;
+        text-align: left;
+        padding-left: 10px;
+        color: #653190;
+        left: 50px;
+        font-weight: bold;
+        bottom: 100px;
+    }
+    
+    #button2 {
+        position: absolute;
+        background-color: #653190;
+        width: 65px;
+        height: 40px;
+        border-radius: 0px 200px 200px 0px;
+        left: 235px;
+        bottom: 100px;
+    }
+    
+    #arrow1 {
+        position: absolute;
+        bottom: 60px;
+        left: 240px;
+        color: rgb(230, 228, 228);
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    #box-container {
+        height: 94vh;
+        margin: 5px
+    }
+
+    #circle1 {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        position: absolute;
+        left: -100px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    #circle2 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        top: -75px;
+        position: absolute;
+        left: -75px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #circle3 {
+        background-color: white;
+        width: 175px;
+        height: 175px;
+        bottom: -100px;
+        position: absolute;
+        right: -100px;
+        border-radius: 50%;
+        z-index: 3;
+    }
+
+    #circle4 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        bottom: -90px;
+        position: absolute;
+        right: -90px;
+        border-radius: 50%;
+        z-index: 4;
+    }
+
+    #sc1 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right:55px;
+    }
+
+    #sc2 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 40px;
+    }
+
+    #sc3 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 25px;
+    }
+
+    #sc4 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 60px;
+    }
+
+    #sc5 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 45px;
+    }
+
+    #sc6 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #profile-icon {
+        width: 190px;
+        height: 190px;
+        border-radius: 100%;
+        right: 260px;
+        top: 100px;
+        object-fit: cover;
+        position: absolute;
+        border: 5px solid black
+    }
+
+    #greeting {
+        font-size: 30px;
+        position: absolute;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        left: 250px;
+        top: 340px;
+    }
+
+    #name {
+        font-size: 24px;
+        position: absolute;
+        color: skyblue;
+        font-family: 'Sriracha';
+        left: 260px;
+        top: 400px;
+        font-weight: lighter;
+    }
+
+    #button1 {
+        position: absolute;
+        background-color: white;
+        width: 250px;
+        height: 40px;
+        border-radius: 200px;
+        font-size: 25px;
+        font-family: 'Space Mono', monospace;
+        text-align: left;
+        padding-left: 10px;
+        color: #653190;
+        left: 250px;
+        font-weight: bold;
+        bottom: 100px;
+    }
+    
+    #button2 {
+        position: absolute;
+        background-color: #653190;
+        width: 65px;
+        height: 40px;
+        border-radius: 0px 200px 200px 0px;
+        left: 435px;
+        bottom: 100px;
+    }
+    
+    #arrow1 {
+        position: absolute;
+        bottom: 60px;
+        left: 440px;
+        color: rgb(230, 228, 228);
+        font-size: 45px;
+    }
+}

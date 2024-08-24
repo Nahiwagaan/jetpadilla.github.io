@@ -1,0 +1,803 @@
+#box-container {
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+    background-color: #0A0514;
+    margin: 1%;
+    padding: 10px;
+}
+
+#circle1 {
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -400px;
+    left: -400px;
+}
+
+#circle2 {
+    width: 820px;
+    height: 820px;
+    background-color: #0A0514;
+    border-radius: 50%;
+    position: absolute;
+    top: -300px;
+    left: -300px;
+}
+
+#circle3 {
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    bottom: -400px;
+    position: absolute;
+    right: -400px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+#circle4 {
+    background-color: #0A0514;
+    width: 500px;
+    height: 500px;
+    bottom: -250px;
+    position: absolute;
+    right: -250px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+#typingkeyb {
+    width: 2000px;
+    height: 650px;
+    position: absolute;
+    border: 20px #0A0514 solid;
+    left: 2000px;
+    top: 300px;
+    border-radius: 500px;
+    object-fit: cover;
+}
+
+#services {
+    font-size: 200px;
+    color: #B544B1;
+    font-family: 'Space Mono' , monospace;
+    position: absolute;
+    left: 2000px;
+    top: 750px;
+}
+
+#graphicdesignicon {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1500px;
+    bottom: 1200px;
+}
+
+#graphicdesigning {
+    font-size: 125px;
+    color: skyblue;
+    font-family: 'Sriracha', monospace;
+    position: absolute;
+    left: 1150px;
+    bottom: 800px;
+}
+
+#webdevicon {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 2900px;
+    bottom: 1200px;
+}
+
+#webdesigning {
+    font-size: 125px;
+    color: skyblue;
+    font-family: 'Sriracha', monospace;
+    position: absolute;
+    left: 2600px;
+    bottom: 800px;
+}
+
+#pythonlogo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 4200px;
+    bottom: 1200px;
+}
+
+#datamanipulation {
+    font-size: 125px;
+    color: skyblue;
+    font-family: 'Sriracha', monospace;
+    position: absolute;
+    left: 3800px;
+    bottom: 800px;
+}
+
+#sc1 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 900px;
+}
+
+#sc2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 800px;
+}
+
+#sc3 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 700px;
+}
+
+#sc4 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+}
+
+#sc5 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+}
+
+#sc6 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+}
+
+#button1 {
+    position: absolute;
+    bottom: 500px;
+    background-color: #ffffff;
+    left: 2500px;
+    justify-content: space-between;
+    border-radius: 200px;
+    width: 1100px;
+    height: 200px;
+}
+
+#button2 {
+    position: absolute;
+    bottom: 275px;
+    background-color: #ffffff;
+    left: 2500px;
+    justify-content: space-between;
+    border-radius: 200px;
+    width: 1100px;
+    height: 200px;
+}
+
+#button3 {
+    position: absolute;
+    bottom: 500px;
+    background-color: #653190;
+    left: 3200px;
+    justify-content: space-between;
+    border-radius: 0px 200px 200px 0px;
+    width: 400px;
+    height: 200px;
+}
+
+#button4 {
+    position: absolute;
+    bottom: 275px;
+    background-color: #653190;
+    left: 2500px;
+    justify-content: space-between;
+    border-radius: 200px 0px 0px 200px;
+    width: 400px;
+    height: 200px;
+}
+
+#arrow1 {
+    position: absolute;
+    bottom: 50px;
+    left: 3250px;
+    color: rgb(230, 228, 228);
+    font-size: 250px;
+    z-index: 1;
+}
+
+#arrow2 {
+    position: absolute;
+    bottom: -175px;
+    left: 2600px;
+    color: rgb(255, 255, 255);
+    font-size: 250px;
+    padding: 5px;
+    z-index: 1;
+}
+
+#continue {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    bottom: 525px;
+    left: 2600px;
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#go-back {
+    color: #653190;
+    font-family: 'Space Mono' , monospace;
+    bottom: 300px;
+    left: 3000px;
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    #box-container {
+        height: 94vh;
+        margin: 5px;
+    }
+
+    #circle1 {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        position: absolute;
+        left: -100px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    #circle2 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        top: -75px;
+        position: absolute;
+        left: -75px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #circle3 {
+        background-color: white;
+        width: 175px;
+        height: 175px;
+        bottom: -100px;
+        position: absolute;
+        right: -100px;
+        border-radius: 50%;
+        z-index: 3;
+    }
+
+    #circle4 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        bottom: -90px;
+        position: absolute;
+        right: -90px;
+        border-radius: 50%;
+        z-index: 4;
+    }
+
+    #sc1 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right:55px;
+    }
+
+    #sc2 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 40px;
+    }
+
+    #sc3 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 25px;
+    }
+
+    #sc4 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 60px;
+    }
+
+    #sc5 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 45px;
+    }
+
+    #sc6 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #typingkeyb {
+        width: 250px;
+        height: 80px;
+        position: absolute;
+        left: 50px;
+        top: 90px;
+        object-fit: cover;
+        border-radius: 50px;
+        border: 5px black solid;
+    }
+
+    #services {
+        color: #B544B1;
+        font-family: 'Space Mono' , monospace;
+        top: 160px;
+        left: 80px;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    #graphicdesignicon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        object-fit: cover;
+        border-radius: 50%;
+        left: 150px;
+        top: 225px;
+    }
+
+    #graphicdesigning {
+        font-size: 18px;
+        position: absolute;
+        left: 109px;
+        top: 250px;
+        font-family: 'Sriracha', monospace;
+        color: skyblue;
+    }
+
+    #webdevicon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        object-fit: cover;
+        left: 150px;
+        top: 310px;
+    }
+
+    #webdesigning {
+        font-size: 18px;
+        position: absolute;
+        left: 115px;
+        bottom: 230px;
+        font-family: 'Sriracha', monospace;
+        color: skyblue;
+    }
+
+    #pythonlogo {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        object-fit: cover;
+        left: 150px;
+        bottom: 200px;
+    }
+
+    #datamanipulation {
+        font-size: 18px;
+        position: absolute;
+        left: 110px;
+        bottom: 140px;
+        font-family: 'Sriracha', monospace;
+        color: skyblue;
+    }
+
+    #button1 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #ffffff;
+        left: 50px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button2 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #ffffff;
+        left: 50px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button3 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #653190;
+        left: 225px;
+        justify-content: space-between;
+        border-radius: 0px 200px 200px 0px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #button4 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #653190;
+        left: 50px;
+        justify-content: space-between;
+        border-radius: 200px 0px 0px 200px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #arrow1 {
+        position: absolute;
+        bottom: 15px;
+        left: 230px;
+        color: rgb(230, 228, 228);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #arrow2 {
+        position: absolute;
+        bottom: -30px;
+        left: 60px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #continue {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 115px;
+        left: 80px;
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #go-back {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 70px;
+        left: 170px;
+        position: absolute;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    #box-container {
+        height: 94vh;
+        margin: 5px;
+    }
+
+    #circle1 {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        position: absolute;
+        left: -100px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    #circle2 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        top: -75px;
+        position: absolute;
+        left: -75px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #circle3 {
+        background-color: white;
+        width: 175px;
+        height: 175px;
+        bottom: -100px;
+        position: absolute;
+        right: -100px;
+        border-radius: 50%;
+        z-index: 3;
+    }
+
+    #circle4 {
+        background-color: #0A0514;
+        width: 150px;
+        height: 150px;
+        bottom: -90px;
+        position: absolute;
+        right: -90px;
+        border-radius: 50%;
+        z-index: 4;
+    }
+
+    #sc1 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right:55px;
+    }
+
+    #sc2 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 40px;
+    }
+
+    #sc3 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 100%;
+        top: 30px;
+        right: 25px;
+    }
+
+    #sc4 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 60px;
+    }
+
+    #sc5 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 45px;
+    }
+
+    #sc6 {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #typingkeyb {
+        width: 250px;
+        height: 80px;
+        position: absolute;
+        left: 250px;
+        top: 90px;
+        object-fit: cover;
+        border-radius: 50px;
+        border: 5px black solid;
+    }
+
+    #services {
+        color: #B544B1;
+        font-family: 'Space Mono' , monospace;
+        top: 160px;
+        left: 280px;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    #graphicdesignicon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        object-fit: cover;
+        border-radius: 50%;
+        left: 350px;
+        top: 225px;
+    }
+
+    #graphicdesigning {
+        font-size: 18px;
+        position: absolute;
+        left: 304px;
+        top: 250px;
+        font-family: 'Sriracha', monospace;
+        color: skyblue;
+    }
+
+    #webdevicon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        object-fit: cover;
+        left: 348px;
+        top: 310px;
+    }
+
+    #webdesigning {
+        font-size: 18px;
+        position: absolute;
+        left: 310px;
+        bottom: 230px;
+        font-family: 'Sriracha', monospace;
+        color: skyblue;
+    }
+
+    #pythonlogo {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        object-fit: cover;
+        left: 350px;
+        bottom: 200px;
+    }
+
+    #datamanipulation {
+        font-size: 18px;
+        position: absolute;
+        left: 300px;
+        bottom: 140px;
+        font-family: 'Sriracha', monospace;
+        color: skyblue;
+    }
+
+    #button1 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #ffffff;
+        left: 250px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button2 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #ffffff;
+        left: 250px;
+        justify-content: space-between;
+        border-radius: 200px;
+        width: 250px;
+        height: 40px;
+    }
+
+    #button3 {
+        position: absolute;
+        bottom: 110px;
+        background-color: #653190;
+        left: 425px;
+        justify-content: space-between;
+        border-radius: 0px 200px 200px 0px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #button4 {
+        position: absolute;
+        bottom: 65px;
+        background-color: #653190;
+        left: 250px;
+        justify-content: space-between;
+        border-radius: 200px 0px 0px 200px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #arrow1 {
+        position: absolute;
+        bottom: 15px;
+        left: 430px;
+        color: rgb(230, 228, 228);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #arrow2 {
+        position: absolute;
+        bottom: -30px;
+        left: 260px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    #continue {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 115px;
+        left: 290px;
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #go-back {
+        color: #653190;
+        font-family: 'Space Mono' , monospace;
+        bottom: 70px;
+        left: 370px;
+        position: absolute;
+        font-size: 20px;
+    }
+}
