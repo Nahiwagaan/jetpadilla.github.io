@@ -1,6 +1,6 @@
 #box-container {
     position: relative;
-    height: 95vh;
+    height: 94vh;
     overflow: hidden;
     background-color: #0A0514;
     margin: 1%;
@@ -8,238 +8,238 @@
 }
 
 #circle1 {
-    width: 1000px;
-    height: 1000px;
+    width: 750px;
+    height: 750px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: -400px;
-    left: -400px;
+    top: -350px;
+    left: -350px;
 }
 
 #circle2 {
-    width: 820px;
-    height: 820px;
+    width: 600px;
+    height: 600px;
     background-color: #0A0514;
     border-radius: 50%;
     position: absolute;
-    top: -300px;
-    left: -300px;
+    top: -280px;
+    left: -280px;
 }
 
 #circle3 {
     background-color: white;
-    width: 750px;
-    height: 750px;
-    bottom: -400px;
-    position: absolute;
-    right: -400px;
-    border-radius: 50%;
-    z-index: 3;
-}
-
-#circle4 {
-    background-color: #0A0514;
     width: 500px;
     height: 500px;
     bottom: -250px;
     position: absolute;
     right: -250px;
     border-radius: 50%;
+    z-index: 3;
+}
+
+#circle4 {
+    background-color: #0A0514;
+    width: 400px;
+    height: 400px;
+    bottom: -200px;
+    position: absolute;
+    right: -200px;
+    border-radius: 50%;
     z-index: 4;
 }
 
 #typingkeyb {
-    width: 2000px;
-    height: 650px;
+    width: 1750px;
+    height: 500px;
     position: absolute;
     border: 20px #0A0514 solid;
-    left: 2000px;
-    top: 300px;
+    left: 1050px;
+    top: 100px;
     border-radius: 500px;
     object-fit: cover;
 }
 
 #services {
-    font-size: 200px;
+    font-size: 125px;
     color: #B544B1;
     font-family: 'Space Mono' , monospace;
     position: absolute;
-    left: 2000px;
-    top: 750px;
+    left: 1350px;
+    top: 500px;
 }
 
 #graphicdesignicon {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     position: absolute;
-    left: 1500px;
-    bottom: 1200px;
+    left: 1100px;
+    bottom: 800px;
 }
 
 #graphicdesigning {
-    font-size: 125px;
+    font-size: 75px;
     color: skyblue;
     font-family: 'Sriracha', monospace;
     position: absolute;
-    left: 1150px;
-    bottom: 800px;
+    left: 900px;
+    bottom: 550px;
 }
 
 #webdevicon {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left: 2900px;
-    bottom: 1200px;
+    left: 1900px;
+    bottom: 800px;
 }
 
 #webdesigning {
-    font-size: 125px;
+    font-size: 75px;
     color: skyblue;
     font-family: 'Sriracha', monospace;
     position: absolute;
-    left: 2600px;
-    bottom: 800px;
+    left: 1750px;
+    bottom: 550px;
 }
 
 #pythonlogo {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left: 4200px;
-    bottom: 1200px;
-}
-
-#datamanipulation {
-    font-size: 125px;
-    color: skyblue;
-    font-family: 'Sriracha', monospace;
-    position: absolute;
-    left: 3800px;
+    left: 2700px;
     bottom: 800px;
 }
 
+#datamanipulation {
+    font-size: 75px;
+    color: skyblue;
+    font-family: 'Sriracha', monospace;
+    position: absolute;
+    left: 2500px;
+    bottom: 550px;
+}
+
 #sc1 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 300px;
-    right: 900px;
+    top: 150px;
+    right: 350px;
 }
 
 #sc2 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 300px;
-    right: 800px;
+    top: 150px;
+    right: 275px;
 }
 
 #sc3 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 300px;
-    right: 700px;
+    top: 150px;
+    right: 200px;
 }
 
 #sc4 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 200px;
-    left: 300px;
+    bottom: 100px;
+    left: 150px;
 }
 
 #sc5 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 200px;
-    left: 400px;
+    bottom: 100px;
+    left: 225px;
 }
 
 #sc6 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 200px;
-    left: 500px;
+    bottom: 100px;
+    left: 300px;
 }
 
 #button1 {
     position: absolute;
-    bottom: 500px;
+    bottom: 375px;
     background-color: #ffffff;
-    left: 2500px;
+    left: 1500px;
     justify-content: space-between;
-    border-radius: 200px;
-    width: 1100px;
-    height: 200px;
+    border-radius: 200px 0px 0px 200px;
+    width: 500px;
+    height: 150px;
 }
 
 #button2 {
     position: absolute;
-    bottom: 275px;
+    bottom: 200px;
     background-color: #ffffff;
-    left: 2500px;
+    left: 1800px;
     justify-content: space-between;
-    border-radius: 200px;
-    width: 1100px;
-    height: 200px;
+    border-radius: 0px 200px 200px 0px;
+    width: 500px;
+    height: 150px;
 }
 
 #button3 {
     position: absolute;
-    bottom: 500px;
+    bottom: 375px;
     background-color: #653190;
-    left: 3200px;
+    left: 2000px;
     justify-content: space-between;
     border-radius: 0px 200px 200px 0px;
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
 }
 
 #button4 {
     position: absolute;
-    bottom: 275px;
+    bottom: 200px;
     background-color: #653190;
-    left: 2500px;
+    left: 1500px;
     justify-content: space-between;
     border-radius: 200px 0px 0px 200px;
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
 }
 
 #arrow1 {
     position: absolute;
-    bottom: 50px;
-    left: 3250px;
+    bottom: 60px;
+    left: 2050px;
     color: rgb(230, 228, 228);
-    font-size: 250px;
+    font-size: 175px;
     z-index: 1;
 }
 
 #arrow2 {
     position: absolute;
-    bottom: -175px;
-    left: 2600px;
+    bottom: -110px;
+    left: 1550px;
     color: rgb(255, 255, 255);
-    font-size: 250px;
+    font-size: 175px;
     padding: 5px;
     z-index: 1;
 }
@@ -247,24 +247,24 @@
 #continue {
     color: #653190;
     font-family: 'Space Mono' , monospace;
-    bottom: 525px;
-    left: 2600px;
+    bottom: 400px;
+    left: 1600px;
     position: absolute;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: bold;
 }
 
 #go-back {
     color: #653190;
     font-family: 'Space Mono' , monospace;
-    bottom: 300px;
-    left: 3000px;
+    bottom: 225px;
+    left: 1900px;
     position: absolute;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: bold;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 375px) and (max-height: 667px) {
     #box-container {
         height: 94vh;
         margin: 5px;
@@ -533,10 +533,10 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 414px) and (min-height: 896px) {
     #box-container {
-        height: 94vh;
-        margin: 5px;
+        height: 96vh;
+        margin: 5px
     }
 
     #circle1 {
@@ -644,11 +644,11 @@
     }
 
     #typingkeyb {
-        width: 250px;
-        height: 80px;
+        width: 300px;
+        height: 100px;
         position: absolute;
-        left: 250px;
-        top: 90px;
+        left: 40px;
+        top: 150px;
         object-fit: cover;
         border-radius: 50px;
         border: 5px black solid;
@@ -657,62 +657,62 @@
     #services {
         color: #B544B1;
         font-family: 'Space Mono' , monospace;
-        top: 160px;
-        left: 280px;
+        top: 240px;
+        left: 75px;
         position: absolute;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #graphicdesignicon {
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
         position: absolute;
         object-fit: cover;
         border-radius: 50%;
-        left: 350px;
-        top: 225px;
+        left: 150px;
+        top: 320px;
     }
 
     #graphicdesigning {
-        font-size: 18px;
+        font-size: 25px;
         position: absolute;
-        left: 304px;
-        top: 250px;
+        left: 100px;
+        top: 360px;
         font-family: 'Sriracha', monospace;
         color: skyblue;
     }
 
     #webdevicon {
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
         position: absolute;
         object-fit: cover;
-        left: 348px;
-        top: 310px;
+        left: 150px;
+        top: 450px;
     }
 
     #webdesigning {
-        font-size: 18px;
+        font-size: 25px;
         position: absolute;
-        left: 310px;
-        bottom: 230px;
+        left: 110px;
+        bottom: 270px;
         font-family: 'Sriracha', monospace;
         color: skyblue;
     }
 
     #pythonlogo {
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
         position: absolute;
         object-fit: cover;
-        left: 350px;
-        bottom: 200px;
+        left: 150px;
+        bottom: 220px;
     }
 
     #datamanipulation {
-        font-size: 18px;
+        font-size: 25px;
         position: absolute;
-        left: 300px;
+        left: 90px;
         bottom: 140px;
         font-family: 'Sriracha', monospace;
         color: skyblue;
@@ -722,10 +722,10 @@
         position: absolute;
         bottom: 110px;
         background-color: #ffffff;
-        left: 250px;
+        left: 80px;
         justify-content: space-between;
-        border-radius: 200px;
-        width: 250px;
+        border-radius: 200px 0px 0px 200px;
+        width: 150px;
         height: 40px;
     }
 
@@ -733,10 +733,10 @@
         position: absolute;
         bottom: 65px;
         background-color: #ffffff;
-        left: 250px;
+        left: 155px;
         justify-content: space-between;
-        border-radius: 200px;
-        width: 250px;
+        border-radius: 0px 200px 200px 0px;
+        width: 150px;
         height: 40px;
     }
 
@@ -744,7 +744,7 @@
         position: absolute;
         bottom: 110px;
         background-color: #653190;
-        left: 425px;
+        left: 230px;
         justify-content: space-between;
         border-radius: 0px 200px 200px 0px;
         width: 75px;
@@ -755,7 +755,7 @@
         position: absolute;
         bottom: 65px;
         background-color: #653190;
-        left: 250px;
+        left: 80px;
         justify-content: space-between;
         border-radius: 200px 0px 0px 200px;
         width: 75px;
@@ -764,8 +764,8 @@
 
     #arrow1 {
         position: absolute;
-        bottom: 15px;
-        left: 430px;
+        bottom: 18px;
+        left: 235px;
         color: rgb(230, 228, 228);
         font-size: 50px;
         padding: 5px;
@@ -774,8 +774,8 @@
 
     #arrow2 {
         position: absolute;
-        bottom: -30px;
-        left: 260px;
+        bottom: -25px;
+        left: 90px;
         color: rgb(255, 255, 255);
         font-size: 50px;
         padding: 5px;
@@ -786,7 +786,7 @@
         color: #653190;
         font-family: 'Space Mono' , monospace;
         bottom: 115px;
-        left: 290px;
+        left: 100px;
         position: absolute;
         font-size: 20px;
         font-weight: bold;
@@ -796,7 +796,7 @@
         color: #653190;
         font-family: 'Space Mono' , monospace;
         bottom: 70px;
-        left: 370px;
+        left: 190px;
         position: absolute;
         font-size: 20px;
     }

@@ -1,96 +1,96 @@
 #box-container {
     position: relative;
-    height: 95vh;
+    height: 94vh;
     overflow: hidden;
     background-color: #0A0514;
     margin: 1%;
     padding: 10px;
 }
 
-#circle1 {
+#profile-icon {
     width: 1000px;
     height: 1000px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: -400px;
-    left: -400px;
-}
-
-#profile-icon {
-    width: 1500px;
-    height: 1500px;
     border-radius: 100%;
-    right: 800px;
-    top: 600px;
+    right: 500px;
+    top: 300px;
     object-fit: cover;
     position: absolute;
     border: 20px solid black
 }
 
+#circle1 {
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -350px;
+    left: -350px;
+}
+
 #circle2 {
-    width: 820px;
-    height: 820px;
+    width: 600px;
+    height: 600px;
     background-color: #0A0514;
     border-radius: 50%;
     position: absolute;
-    top: -300px;
-    left: -300px;
+    top: -280px;
+    left: -280px;
 }
 
 #circle3 {
     background-color: white;
-    width: 500px;
-    height: 500px;
-    bottom: 400px;
+    width: 300px;
+    height: 300px;
+    bottom: 350px;
     position: absolute;
-    right: 1700px;
+    right: 1100px;
     border-radius: 50%;
     z-index: 3;
 }
 
 #circle4 {
     background-color: #0A0514;
-    width: 400px;
-    height: 400px;
-    bottom: 450px;
+    width: 230px;
+    height: 230px;
+    bottom: 385px;
     position: absolute;
-    right: 1750px;
+    right: 1135px;
     border-radius: 50%;
     z-index: 4;
 }
 
 #greeting {
-    font-size: 200px;
+    font-size: 140px;
     position: absolute;
     color: white;
     font-family: 'Space Mono', monospace;
-    left: 400px;
-    top: 1200px;
+    left: 200px;
+    top: 650px;
 }
 
 #name {
-    font-size: 200px;
+    font-size: 140px;
     position: absolute;
     color: skyblue;
     font-family: 'Sriracha';
-    left: 400px;
-    top: 1500px;
+    left: 200px;
+    top: 850px;
     font-weight: lighter;
 }
 
 #button1 {
     position: absolute;
     background-color: white;
-    width: 1950px;
-    height: 250px;
+    width: 1400px;
+    height: 175px;
     border-radius: 200px;
-    font-size: 150px;
+    font-size: 115px;
     font-family: 'Space Mono', monospace;
     text-align: left;
     padding-left: 100px;
     color: #653190;
-    left: 400px;
+    left: 200px;
     font-weight: bold;
     bottom: 400px;
 }
@@ -98,83 +98,83 @@
 #button2 {
     position: absolute;
     background-color: #653190;
-    width: 500px;
-    height: 250px;
+    width: 300px;
+    height: 175px;
     border-radius: 0px 200px 200px 0px;
-    left: 1850px;
+    left: 1300px;
     bottom: 400px;
 }
 
 #arrow1 {
     position: absolute;
-    bottom: 180px;
-    left: 1950px;
+    bottom: 240px;
+    left: 1350px;
     color: rgb(230, 228, 228);
-    font-size: 250px;
+    font-size: 180px;
     z-index: 1;
 }
 
 #sc1 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 600px;
-    right: 2500px;
+    top: 300px;
+    right: 1550px;
 }
 
 #sc2 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 600px;
-    right: 2400px;
+    top: 300px;
+    right: 1475px;
 }
 
 #sc3 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 600px;
-    right: 2300px;
+    top: 300px;
+    right: 1400px;
 }
 
 #sc4 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 200px;
-    left: 300px;
+    bottom: 100px;
+    left: 150px;
 }
 
 #sc5 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 200px;
-    left: 400px;
+    bottom: 100px;
+    left: 225px;
 }
 
 #sc6 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 200px;
-    left: 500px;
+    bottom: 100px;
+    left: 300px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) and (min-height: 667px) {
     #box-container {
         height: 94vh;
         margin: 5px
@@ -204,22 +204,22 @@
 
     #circle3 {
         background-color: white;
-        width: 175px;
-        height: 175px;
-        bottom: -100px;
+        width: 75px;
+        height: 75px;
+        top: 270px;
         position: absolute;
-        right: -100px;
+        left: 100px;
         border-radius: 50%;
         z-index: 3;
     }
 
     #circle4 {
         background-color: #0A0514;
-        width: 150px;
-        height: 150px;
-        bottom: -90px;
+        width: 55px;
+        height: 55px;
+        top: 280px;
         position: absolute;
-        right: -90px;
+        left: 110px;
         border-radius: 50%;
         z-index: 4;
     }
@@ -231,7 +231,7 @@
         position: absolute;
         border-radius: 100%;
         top: 30px;
-        right:55px;
+        right: 55px;
     }
 
     #sc2 {
@@ -329,7 +329,7 @@
         font-weight: bold;
         bottom: 100px;
     }
-    
+
     #button2 {
         position: absolute;
         background-color: #653190;
@@ -339,7 +339,7 @@
         left: 235px;
         bottom: 100px;
     }
-    
+
     #arrow1 {
         position: absolute;
         bottom: 60px;
@@ -349,10 +349,10 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 414px) and (min-height: 896px) {
     #box-container {
-        height: 94vh;
-        margin: 5px
+        height: 95vh;
+        margin: 10px
     }
 
     #circle1 {
@@ -379,22 +379,22 @@
 
     #circle3 {
         background-color: white;
-        width: 175px;
-        height: 175px;
-        bottom: -100px;
+        width: 75px;
+        height: 75px;
+        top: 320px;
         position: absolute;
-        right: -100px;
+        left: 100px;
         border-radius: 50%;
         z-index: 3;
     }
 
     #circle4 {
         background-color: #0A0514;
-        width: 150px;
-        height: 150px;
-        bottom: -90px;
+        width: 55px;
+        height: 55px;
+        top: 330px;
         position: absolute;
-        right: -90px;
+        left: 110px;
         border-radius: 50%;
         z-index: 4;
     }
@@ -406,7 +406,7 @@
         position: absolute;
         border-radius: 100%;
         top: 30px;
-        right:55px;
+        right: 55px;
     }
 
     #sc2 {
@@ -463,8 +463,8 @@
         width: 190px;
         height: 190px;
         border-radius: 100%;
-        right: 260px;
-        top: 100px;
+        right: 90px;
+        top: 150px;
         object-fit: cover;
         position: absolute;
         border: 5px solid black
@@ -475,8 +475,8 @@
         position: absolute;
         color: white;
         font-family: 'Space Mono', monospace;
-        left: 250px;
-        top: 340px;
+        left: 50px;
+        top: 450px;
     }
 
     #name {
@@ -484,8 +484,8 @@
         position: absolute;
         color: skyblue;
         font-family: 'Sriracha';
-        left: 260px;
-        top: 400px;
+        left: 60px;
+        top: 510px;
         font-weight: lighter;
     }
 
@@ -500,25 +500,25 @@
         text-align: left;
         padding-left: 10px;
         color: #653190;
-        left: 250px;
+        left: 50px;
         font-weight: bold;
         bottom: 100px;
     }
-    
+
     #button2 {
         position: absolute;
         background-color: #653190;
         width: 65px;
         height: 40px;
         border-radius: 0px 200px 200px 0px;
-        left: 435px;
+        left: 235px;
         bottom: 100px;
     }
-    
+
     #arrow1 {
         position: absolute;
         bottom: 60px;
-        left: 440px;
+        left: 240px;
         color: rgb(230, 228, 228);
         font-size: 45px;
     }
