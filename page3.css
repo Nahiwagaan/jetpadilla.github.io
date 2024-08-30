@@ -54,7 +54,7 @@
     height: 500px;
     position: absolute;
     border: 20px #0A0514 solid;
-    left: 1050px;
+    left: 1250px;
     top: 100px;
     border-radius: 500px;
     object-fit: cover;
@@ -65,7 +65,7 @@
     color: #B544B1;
     font-family: 'Space Mono' , monospace;
     position: absolute;
-    left: 1350px;
+    left: 1500px;
     top: 500px;
 }
 
@@ -74,7 +74,7 @@
     height: 200px;
     border-radius: 50%;
     position: absolute;
-    left: 1100px;
+    left: 1200px;
     bottom: 800px;
 }
 
@@ -83,7 +83,7 @@
     color: skyblue;
     font-family: 'Sriracha', monospace;
     position: absolute;
-    left: 900px;
+    left: 1000px;
     bottom: 550px;
 }
 
@@ -91,7 +91,7 @@
     width: 200px;
     height: 200px;
     position: absolute;
-    left: 1900px;
+    left: 2000px;
     bottom: 800px;
 }
 
@@ -100,7 +100,7 @@
     color: skyblue;
     font-family: 'Sriracha', monospace;
     position: absolute;
-    left: 1750px;
+    left: 1850px;
     bottom: 550px;
 }
 
@@ -108,7 +108,7 @@
     width: 200px;
     height: 200px;
     position: absolute;
-    left: 2700px;
+    left: 2800px;
     bottom: 800px;
 }
 
@@ -117,7 +117,7 @@
     color: skyblue;
     font-family: 'Sriracha', monospace;
     position: absolute;
-    left: 2500px;
+    left: 2600px;
     bottom: 550px;
 }
 
@@ -185,7 +185,7 @@
     position: absolute;
     bottom: 375px;
     background-color: #ffffff;
-    left: 1500px;
+    left: 1700px;
     justify-content: space-between;
     border-radius: 200px 0px 0px 200px;
     width: 500px;
@@ -196,7 +196,7 @@
     position: absolute;
     bottom: 200px;
     background-color: #ffffff;
-    left: 1800px;
+    left: 2000px;
     justify-content: space-between;
     border-radius: 0px 200px 200px 0px;
     width: 500px;
@@ -207,7 +207,7 @@
     position: absolute;
     bottom: 375px;
     background-color: #653190;
-    left: 2000px;
+    left: 2200px;
     justify-content: space-between;
     border-radius: 0px 200px 200px 0px;
     width: 300px;
@@ -218,7 +218,7 @@
     position: absolute;
     bottom: 200px;
     background-color: #653190;
-    left: 1500px;
+    left: 1700px;
     justify-content: space-between;
     border-radius: 200px 0px 0px 200px;
     width: 300px;
@@ -228,7 +228,7 @@
 #arrow1 {
     position: absolute;
     bottom: 60px;
-    left: 2050px;
+    left: 2250px;
     color: rgb(230, 228, 228);
     font-size: 175px;
     z-index: 1;
@@ -237,7 +237,7 @@
 #arrow2 {
     position: absolute;
     bottom: -110px;
-    left: 1550px;
+    left: 1750px;
     color: rgb(255, 255, 255);
     font-size: 175px;
     padding: 5px;
@@ -248,7 +248,7 @@
     color: #653190;
     font-family: 'Space Mono' , monospace;
     bottom: 400px;
-    left: 1600px;
+    left: 1750px;
     position: absolute;
     font-size: 75px;
     font-weight: bold;
@@ -258,282 +258,13 @@
     color: #653190;
     font-family: 'Space Mono' , monospace;
     bottom: 225px;
-    left: 1900px;
+    left: 2100px;
     position: absolute;
     font-size: 75px;
     font-weight: bold;
 }
 
-@media (min-width: 375px) and (max-height: 667px) {
-    #box-container {
-        height: 94vh;
-        margin: 5px;
-    }
-
-    #circle1 {
-        background-color: white;
-        width: 200px;
-        height: 200px;
-        top: -100px;
-        position: absolute;
-        left: -100px;
-        border-radius: 50%;
-        z-index: 1;
-    }
-
-    #circle2 {
-        background-color: #0A0514;
-        width: 150px;
-        height: 150px;
-        top: -75px;
-        position: absolute;
-        left: -75px;
-        border-radius: 50%;
-        z-index: 2;
-    }
-
-    #circle3 {
-        background-color: white;
-        width: 175px;
-        height: 175px;
-        bottom: -100px;
-        position: absolute;
-        right: -100px;
-        border-radius: 50%;
-        z-index: 3;
-    }
-
-    #circle4 {
-        background-color: #0A0514;
-        width: 150px;
-        height: 150px;
-        bottom: -90px;
-        position: absolute;
-        right: -90px;
-        border-radius: 50%;
-        z-index: 4;
-    }
-
-    #sc1 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 100%;
-        top: 30px;
-        right:55px;
-    }
-
-    #sc2 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 100%;
-        top: 30px;
-        right: 40px;
-    }
-
-    #sc3 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 100%;
-        top: 30px;
-        right: 25px;
-    }
-
-    #sc4 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 50%;
-        bottom: 30px;
-        left: 60px;
-    }
-
-    #sc5 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 50%;
-        bottom: 30px;
-        left: 45px;
-    }
-
-    #sc6 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 50%;
-        bottom: 30px;
-        left: 30px;
-    }
-
-    #typingkeyb {
-        width: 250px;
-        height: 80px;
-        position: absolute;
-        left: 50px;
-        top: 90px;
-        object-fit: cover;
-        border-radius: 50px;
-        border: 5px black solid;
-    }
-
-    #services {
-        color: #B544B1;
-        font-family: 'Space Mono' , monospace;
-        top: 160px;
-        left: 80px;
-        position: absolute;
-        font-size: 20px;
-    }
-
-    #graphicdesignicon {
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        object-fit: cover;
-        border-radius: 50%;
-        left: 150px;
-        top: 225px;
-    }
-
-    #graphicdesigning {
-        font-size: 18px;
-        position: absolute;
-        left: 109px;
-        top: 250px;
-        font-family: 'Sriracha', monospace;
-        color: skyblue;
-    }
-
-    #webdevicon {
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        object-fit: cover;
-        left: 150px;
-        top: 310px;
-    }
-
-    #webdesigning {
-        font-size: 18px;
-        position: absolute;
-        left: 115px;
-        bottom: 230px;
-        font-family: 'Sriracha', monospace;
-        color: skyblue;
-    }
-
-    #pythonlogo {
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        object-fit: cover;
-        left: 150px;
-        bottom: 200px;
-    }
-
-    #datamanipulation {
-        font-size: 18px;
-        position: absolute;
-        left: 110px;
-        bottom: 140px;
-        font-family: 'Sriracha', monospace;
-        color: skyblue;
-    }
-
-    #button1 {
-        position: absolute;
-        bottom: 110px;
-        background-color: #ffffff;
-        left: 50px;
-        justify-content: space-between;
-        border-radius: 200px;
-        width: 250px;
-        height: 40px;
-    }
-
-    #button2 {
-        position: absolute;
-        bottom: 65px;
-        background-color: #ffffff;
-        left: 50px;
-        justify-content: space-between;
-        border-radius: 200px;
-        width: 250px;
-        height: 40px;
-    }
-
-    #button3 {
-        position: absolute;
-        bottom: 110px;
-        background-color: #653190;
-        left: 225px;
-        justify-content: space-between;
-        border-radius: 0px 200px 200px 0px;
-        width: 75px;
-        height: 40px;
-    }
-
-    #button4 {
-        position: absolute;
-        bottom: 65px;
-        background-color: #653190;
-        left: 50px;
-        justify-content: space-between;
-        border-radius: 200px 0px 0px 200px;
-        width: 75px;
-        height: 40px;
-    }
-
-    #arrow1 {
-        position: absolute;
-        bottom: 15px;
-        left: 230px;
-        color: rgb(230, 228, 228);
-        font-size: 50px;
-        padding: 5px;
-        z-index: 1;
-    }
-
-    #arrow2 {
-        position: absolute;
-        bottom: -30px;
-        left: 60px;
-        color: rgb(255, 255, 255);
-        font-size: 50px;
-        padding: 5px;
-        z-index: 1;
-    }
-
-    #continue {
-        color: #653190;
-        font-family: 'Space Mono' , monospace;
-        bottom: 115px;
-        left: 80px;
-        position: absolute;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    #go-back {
-        color: #653190;
-        font-family: 'Space Mono' , monospace;
-        bottom: 70px;
-        left: 170px;
-        position: absolute;
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 414px) and (min-height: 896px) {
+@media (max-width: 768px) {
     #box-container {
         height: 96vh;
         margin: 5px
