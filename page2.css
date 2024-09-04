@@ -1,290 +1,289 @@
 #box-container {
     position: relative;
-    height: 94vh;
+    height: 97.5vh;
     overflow: hidden;
     background-color: #0A0514;
-    margin: 1%;
-    padding: 10px;
+    margin: 3px;
 }
 
 #page2-icon{
-    width: 1000px;
-    height: 1000px;
+    width: 280px;
+    height: 280px;
     border-radius: 100%;
-    left: 250px;
-    top: 250px;
+    left: 50px;
+    top: 130px;
     object-fit: cover;
     position: absolute;
-    border: 20px solid black
+    border: 5px solid black
 }
 
 #circle1 {
-    width: 750px;
-    height: 750px;
+    width: 200px;
+    height: 200px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: -350px;
-    left: -350px;
+    top: -50px;
+    left: -50px;
 }
 
 #circle2 {
-    width: 600px;
-    height: 600px;
+    width: 160px;
+    height: 160px;
     background-color: #0A0514;
     border-radius: 50%;
     position: absolute;
-    top: -280px;
-    left: -280px;
+    top: -30px;
+    left: -30px;
 }
 
 #circle3 {
     background-color: white;
-    width: 500px;
-    height: 500px;
-    bottom: -250px;
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
     position: absolute;
-    right: -250px;
+    right: -100px;
     border-radius: 50%;
     z-index: 3;
 }
 
 #circle4 {
     background-color: #0A0514;
-    width: 400px;
-    height: 400px;
-    bottom: -200px;
+    width: 160px;
+    height: 160px;
+    bottom: -80px;
     position: absolute;
-    right: -200px;
+    right: -80px;
     border-radius: 50%;
     z-index: 4;
 }
 
 #sc1 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    right: 350px;
+    top: 50px;
+    right: 150px;
 }
 
 #sc2 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    right: 275px;
+    top: 50px;
+    right: 125px;
 }
 
 #sc3 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    right: 200px;
+    top: 50px;
+    right: 100px;
 }
 
 #sc4 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    left: 150px;
+    bottom: 40px;
+    left: 75px;
 }
 
 #sc5 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    left: 225px;
+    bottom: 40px;
+    left: 100px;
 }
 
 #sc6 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    left: 300px;
+    bottom: 40px;
+    left: 125px;
 }
 
 #about-me {
     color: #653190;
     font-family: 'Space Mono' , monospace;
     position: absolute;
-    font-size: 75px;
-    top: 150px;
-    left: 1500px;
+    font-size: 20px;
+    top: 50px;
+    left: 370px;
 }
 
 #about-me-text {
     color: white;
     font-family: 'Space Mono', monospace;
-    font-size: 50px;
+    font-size: 20px;
     position: absolute;
-    left: 1500px;
-    top: 350px;
+    left: 370px;
+    top: 100px;
 }
 
 #square1 {
     background-color: #C995B8;
-    height: 140px;
-    width: 650px;
+    height: 40px;
+    width: 200px;
     position: absolute;
-    top: 550px;
-    left: 2350px;
+    top: 200px;
+    left: 650px;
 }
 
 #work-exp {
-    font-size: 65px;
+    font-size: 20px;
     position: absolute;
-    top: 500px;
-    left: 2375px;
+    top: 185px;
+    left: 660px;
     font-family: 'Space Mono', monospace;
 }
 
 #premiere-text {
     color: #653190;
     font-family: 'Space Mono' , monospace;
-    font-size: 75px;
+    font-size: 20px;
     position: absolute;
-    top: 600px;
-    left: 1500px;
+    top: 220px;
+    left: 370px;
 }
 
 #premiere-content {
     color: white;
-    font-size: 40px;
+    font-size: 15px;
     position: absolute;
-    top: 800px;
-    left: 1040px;
-    text-align: center; width: 80%;
+    top: 270px;
+    left: 370px;
+    text-align: center;
 }
 
 #skills {
-    font-size: 65px;
+    font-size: 20px;
     position: absolute;
-    top: 980px;
-    left: 2550px;
+    bottom: 230px;
+    left: 710px;
     font-family: 'Space Mono', monospace;
 }
 
 #square2 {
     background-color: #C995B8;
-    height: 125px;
-    width: 350px;
+    height: 40px;
+    width: 95px;
     position: absolute;
-    bottom: 700px;
-    left: 2500px;
+    bottom: 240px;
+    left: 700px;
 }
 
 #python {
     color: #653190;
     font-family: 'Space Mono' , monospace;
-    font-size: 75px;
+    font-size: 20px;
     position: absolute;
-    bottom: 400px;
-    left: 1500px;
+    bottom: 170px;
+    left: 370px;
 }
 
 #python-content {
     color: white;
     font-family: 'Space Mono', monospace;
-    font-size: 44px;
+    font-size: 15px;
     position: absolute;
-    bottom: 400px;
-    left: 1500px;
+    bottom: 160px;
+    left: 370px;
 }
 
 #frontend {
     color: #653190;
     font-family: 'Space Mono' , monospace;
     position: absolute;
-    font-size: 75px;
-    bottom: 175px;
-    left: 1500px;
+    font-size: 20px;
+    bottom: 100px;
+    left: 370px;
 }
 
 #frontend-content {
     color: white;
     font-family: 'Space Mono', monospace;
-    font-size: 50px;
+    font-size: 18px;
     position: absolute;
-    bottom: 150px;
-    left: 1500px;
+    bottom: 80px;
+    left: 370px;
 }
 
 #button1 {
     position: absolute;
-    bottom: 400px;
-    background-color: #ffffff;
-    left: 250px;
+    bottom: 130px;
+    background-color: #D9D9D9;
+    left: 50px;
     justify-content: space-between;
     border-radius: 200px 0px 0px 200px;
-    width: 700px;
-    height: 175px;
+    width: 200px;
+    height: 50px;
 }
 
 #button2 {
     position: absolute;
-    bottom: 200px;
-    background-color: #ffffff;
-    left: 650px;
+    bottom: 70px;
+    background-color: #D9D9D9;
+    left: 150px;
     justify-content: space-between;
     border-radius: 0px 200px 200px 0px;
-    width: 700px;
-    height: 175px;
+    width: 200px;
+    height: 50px;
 }
 
 #button3 {
     position: absolute;
-    bottom: 400px;
+    bottom: 130px;
     background-color: #653190;
-    left: 950px;
+    left: 250px;
     justify-content: space-between;
     border-radius: 0px 200px 200px 0px;
-    width: 400px;
-    height: 175px;
+    width: 100px;
+    height: 50px;
 }
 
 #button4 {
     position: absolute;
-    bottom: 200px;
+    bottom: 70px;
     background-color: #653190;
-    left: 250px;
+    left: 50px;
     justify-content: space-between;
     border-radius: 200px 0px 0px 200px;
-    width: 400px;
-    height: 175px;
+    width: 100px;
+    height: 50px;
 }
 
 #arrow1 {
     position: absolute;
-    bottom: 50px;
-    left: 1050px;
+    bottom: 45px;
+    left: 280px;
     color: rgb(230, 228, 228);
-    font-size: 200px;
+    font-size: 50px;
     z-index: 1;
 }
 
 #arrow2 {
     position: absolute;
-    bottom: -150px;
-    left: 350px;
+    bottom: -20px;
+    left: 70px;
     color: rgb(255, 255, 255);
-    font-size: 200px;
+    font-size: 50px;
     padding: 5px;
     z-index: 1;
 }
@@ -292,336 +291,323 @@
 #continue {
     color: #653190;
     font-family: 'Space Mono' , monospace;
-    bottom: 425px;
-    left: 350px;
+    bottom: 135px;
+    left: 70px;
     position: absolute;
-    font-size: 100px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 #go-back {
     color: #653190;
     font-family: 'Space Mono' , monospace;
-    bottom: 225px;
-    left: 800px;
+    bottom: 75px;
+    left: 180px;
     position: absolute;
-    font-size: 100px;
+    font-size: 30px;
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    #box-container {
-        height: 96vh;
-        margin: 5px
-    }
-
-    .line-break {
-        display: none;
-    }
-    
+@media (max-width: 426px) {
     #circle1 {
-        background-color: white;
-        width: 200px;
-        height: 200px;
-        top: -100px;
-        position: absolute;
-        left: -100px;
-        border-radius: 50%;
-        z-index: 1;
-    }
-
-    #circle2 {
-        background-color: #0A0514;
         width: 150px;
         height: 150px;
-        top: -75px;
-        position: absolute;
-        left: -75px;
+        background-color: white;
         border-radius: 50%;
-        z-index: 2;
+        position: absolute;
+        top: -60px;
+        left: -60px;
+    }
+    
+    #circle2 {
+        width: 125px;
+        height: 125px;
+        background-color: #0A0514;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: -50px;
     }
 
     #circle3 {
         background-color: white;
-        width: 175px;
-        height: 175px;
-        bottom: -100px;
+        width: 125px;
+        height: 125px;
+        bottom: -50px;
         position: absolute;
-        right: -100px;
+        right: -50px;
         border-radius: 50%;
         z-index: 3;
     }
-
+    
     #circle4 {
         background-color: #0A0514;
-        width: 150px;
-        height: 150px;
-        bottom: -90px;
+        width: 100px;
+        height: 100px;
+        bottom: -40px;
         position: absolute;
-        right: -90px;
+        right: -40px;
         border-radius: 50%;
         z-index: 4;
     }
 
-    #page2-icon {
-        width: 100px;
-        height: 100px;
-        left: 140px;
-        position: absolute;
-        top: 60px;
-        border: 5px solid black;
-        border-radius: 100%;
-        object-fit: cover;
-    }
-
     #sc1 {
-        background-color: #ffffff;
         width: 10px;
         height: 10px;
+        background-color: white;
+        border-radius: 50%;
         position: absolute;
-        border-radius: 100%;
         top: 30px;
-        right:55px;
+        right: 80px;
     }
-
+    
     #sc2 {
-        background-color: #ffffff;
         width: 10px;
         height: 10px;
+        background-color: white;
+        border-radius: 50%;
         position: absolute;
-        border-radius: 100%;
+        top: 30px;
+        right: 60px;
+    }
+    
+    #sc3 {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
         top: 30px;
         right: 40px;
     }
-
-    #sc3 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 100%;
-        top: 30px;
-        right: 25px;
-    }
-
+    
     #sc4 {
-        background-color: #ffffff;
         width: 10px;
         height: 10px;
-        position: absolute;
+        background-color: white;
         border-radius: 50%;
-        bottom: 30px;
-        left: 60px;
-    }
-
-    #sc5 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
         position: absolute;
-        border-radius: 50%;
-        bottom: 30px;
-        left: 45px;
-    }
-
-    #sc6 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 50%;
         bottom: 30px;
         left: 30px;
+    }
+    
+    #sc5 {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30px;
+        left: 50px;
+    }
+    
+    #sc6 {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30px;
+        left: 70px;
+    }
+
+    #page2-icon{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        left: 140px;
+        top: 60px;
+        object-fit: cover;
+        position: absolute;
+        border: 5px solid black
     }
 
     #about-me {
         color: #653190;
         font-family: 'Space Mono' , monospace;
         position: absolute;
-        font-size: 20px;
-        top: 170px;
+        font-size: 15px;
+        top: 160px;
         left: 20px;
     }
-
+    
     #about-me-text {
         color: white;
         font-family: 'Space Mono', monospace;
         font-size: 10px;
         position: absolute;
-        top: 230px;
         left: 20px;
-        text-align: center;
-        line-height: 1.2;
+        top: 200px;
     }
     
     #square1 {
         background-color: #C995B8;
-        height: 40px;
-        width: 200px;
-        position: relative;
-        top: 290px;
-        left: 90px;
+        height: 30px;
+        width: 150px;
+        position: absolute;
+        top: 250px;
+        left: 125px;
     }
-
+    
     #work-exp {
-        font-size: 20px;
-        position: relative;
-        top: 200px;
-        left: 100px;
+        font-size: 15px;
+        position: absolute;
+        top: 240px;
+        left: 130px;
         font-family: 'Space Mono', monospace;
     }
-
+    
     #premiere-text {
         color: #653190;
         font-family: 'Space Mono' , monospace;
+        font-size: 15px;
         position: absolute;
-        font-size: 20px;
-        top: 320px;
+        top: 260px;
         left: 20px;
     }
-
+    
     #premiere-content {
         color: white;
-        font-size: 11px;
-        font-family: 'Space Mono', monospace;
+        font-size: 8px;
         position: absolute;
-        top: 380px;
-        left: 30px;
+        top: 300px;
+        left: 15px;
+        text-align: center;
     }
-
+    
+    #skills {
+        font-size: 15px;
+        position: absolute;
+        bottom: 250px;
+        left: 170px;
+        font-family: 'Space Mono', monospace;
+    }
+    
     #square2 {
         background-color: #C995B8;
-        height: 35px;
+        height: 30px;
         width: 100px;
-        position: relative;
-        top: 420px;
-        left: 135px;
-    }
-
-    #skills {
-        font-size: 20px;
-        position: relative;
-        top: 320px;
+        position: absolute;
+        bottom: 260px;
         left: 150px;
-        font-family: 'Space Mono', monospace;
     }
-
+    
     #python {
         color: #653190;
         font-family: 'Space Mono' , monospace;
+        font-size: 15px;
         position: absolute;
-        font-size: 20px;
-        bottom: 290px;
+        bottom: 210px;
         left: 20px;
     }
-
+    
     #python-content {
         color: white;
         font-family: 'Space Mono', monospace;
-        font-size: 11px;
+        font-size: 10px;
         position: absolute;
-        bottom: 270px;
+        bottom: 190px;
         left: 20px;
     }
-
+    
     #frontend {
         color: #653190;
         font-family: 'Space Mono' , monospace;
         position: absolute;
-        font-size: 20px;
-        bottom: 200px;
+        font-size: 15px;
+        bottom: 150px;
         left: 20px;
     }
-
+    
     #frontend-content {
         color: white;
         font-family: 'Space Mono', monospace;
-        font-size: 11px;
+        font-size: 10px;
         position: absolute;
-        bottom: 180px;
+        bottom: 135px;
         left: 20px;
     }
-
+    
     #button1 {
         position: absolute;
-        bottom: 110px;
-        background-color: #ffffff;
+        bottom: 100px;
+        background-color: #D9D9D9;
         left: 80px;
         justify-content: space-between;
         border-radius: 200px 0px 0px 200px;
         width: 150px;
-        height: 40px;
+        height: 35px;
     }
-
+    
     #button2 {
         position: absolute;
-        bottom: 65px;
-        background-color: #ffffff;
-        left: 155px;
+        bottom: 60px;
+        background-color: #D9D9D9;
+        left: 150px;
         justify-content: space-between;
         border-radius: 0px 200px 200px 0px;
-        width: 150px;
-        height: 40px;
+        width: 160px;
+        height: 35px;
     }
-
+    
     #button3 {
         position: absolute;
-        bottom: 110px;
+        bottom: 100px;
         background-color: #653190;
         left: 230px;
         justify-content: space-between;
         border-radius: 0px 200px 200px 0px;
         width: 75px;
-        height: 40px;
+        height: 35px;
     }
-
+    
     #button4 {
         position: absolute;
-        bottom: 65px;
+        bottom: 60px;
         background-color: #653190;
         left: 80px;
         justify-content: space-between;
         border-radius: 200px 0px 0px 200px;
         width: 75px;
-        height: 40px;
+        height: 35px;
     }
-
+    
     #arrow1 {
         position: absolute;
-        bottom: 18px;
-        left: 235px;
+        bottom: 20px;
+        left: 250px;
         color: rgb(230, 228, 228);
-        font-size: 50px;
-        padding: 5px;
+        font-size: 45px;
         z-index: 1;
     }
-
+    
     #arrow2 {
         position: absolute;
         bottom: -25px;
         left: 90px;
         color: rgb(255, 255, 255);
-        font-size: 50px;
+        font-size: 45px;
         padding: 5px;
         z-index: 1;
     }
-
+    
     #continue {
         color: #653190;
         font-family: 'Space Mono' , monospace;
-        bottom: 115px;
+        bottom: 105px;
         left: 100px;
         position: absolute;
         font-size: 20px;
         font-weight: bold;
     }
-
+    
     #go-back {
         color: #653190;
         font-family: 'Space Mono' , monospace;
-        bottom: 70px;
+        bottom: 60px;
         left: 190px;
         position: absolute;
         font-size: 20px;
+        font-weight: bold;
     }
 }

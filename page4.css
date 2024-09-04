@@ -1,204 +1,203 @@
 #box-container {
     position: relative;
-    height: 94vh;
+    height: 97.5vh;
     overflow: hidden;
     background-color: #0A0514;
-    margin: 1%;
-    padding: 10px;
+    margin: 3px;
 }
 
 #contacts {
-    font-size: 125px;
+    font-size: 50px;
     position: absolute;
     color: #B544B1;
     font-family: 'Space Mono', monospace;
-    left: 1700px;
-    top: 100px;
+    left: 600px;
+    top: 50px;
 }
 
 #pogi {
-    width: 900px;
-    height: 900px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
     border: 20px #0A0514 solid;
     position: absolute;
-    left: 800px;
-    top: 400px;
+    left: 250px;
+    top: 140px;
 }
 
 #gmail {
-    background: white;
-    width: 1200px;
-    height: 140px;
+    background: #D9D9D9;
+    width: 350px;
+    height: 40px;
     border-radius: 200px;
+    padding-top: 10px;
     position: absolute;
-    top: 700px;
-    left: 1800px;
-    font-size: 70px;
+    top: 260px;
+    left: 600px;
+    font-size: 25px;
     font-family: 'Space Mono', monospace;
     color: #653190;
     text-align: center;
-    padding-top: 20px;
     font-weight: bold;
 }
 
 #fbicon {
-    height: 200px;
-    width: 200px;
+    height: 75px;
+    width: 75px;
     position: absolute;
     border-radius: 50%;
-    bottom: 750px;
-    left: 1850px;
+    bottom: 230px;
+    left: 620px;
 }
 
 #githubicon {
-    height: 200px;
-    width: 200px;
+    height: 75px;
+    width: 75px;
     position: absolute;
     border-radius: 50%;
-    bottom: 750px;
-    left: 2300px;
+    bottom: 230px;
+    left: 735px;
 }
 
 #igicon {
-    height: 200px;
-    width: 200px;
+    height: 75px;
+    width: 75px;
     position: absolute;
     border-radius: 50%;
-    bottom: 750px;
-    left: 2750px;
+    bottom: 230px;
+    left: 850px;
 }
 
 #circle1 {
-    width: 750px;
-    height: 750px;
+    width: 200px;
+    height: 200px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: -350px;
-    left: -350px;
+    top: -50px;
+    left: -50px;
 }
 
 #circle2 {
-    width: 600px;
-    height: 600px;
+    width: 160px;
+    height: 160px;
     background-color: #0A0514;
     border-radius: 50%;
     position: absolute;
-    top: -280px;
-    left: -280px;
+    top: -30px;
+    left: -30px;
 }
 
 #circle3 {
     background-color: white;
-    width: 500px;
-    height: 500px;
-    bottom: -250px;
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
     position: absolute;
-    right: -250px;
+    right: -100px;
     border-radius: 50%;
     z-index: 3;
 }
 
 #circle4 {
     background-color: #0A0514;
-    width: 400px;
-    height: 400px;
-    bottom: -200px;
+    width: 160px;
+    height: 160px;
+    bottom: -80px;
     position: absolute;
-    right: -200px;
+    right: -80px;
     border-radius: 50%;
     z-index: 4;
 }
 
 #sc1 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    right: 350px;
+    top: 50px;
+    right: 150px;
 }
 
 #sc2 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    right: 275px;
+    top: 50px;
+    right: 125px;
 }
 
 #sc3 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    right: 200px;
+    top: 50px;
+    right: 100px;
 }
 
 #sc4 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    left: 150px;
+    bottom: 40px;
+    left: 75px;
 }
 
 #sc5 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    left: 225px;
+    bottom: 40px;
+    left: 100px;
 }
 
 #sc6 {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    left: 300px;
+    bottom: 40px;
+    left: 125px;
 }
 
 #button2 {
     position: absolute;
-    bottom: 200px;
-    background-color: #ffffff;
-    left: 2000px;
+    bottom: 40px;
+    background-color: #D9D9D9;
+    left: 600px;
     justify-content: space-between;
     border-radius: 0px 200px 200px 0px;
-    width: 500px;
-    height: 150px;
+    width: 200px;
+    height: 50px;
 }
 
 #button4 {
     position: absolute;
-    bottom: 200px;
+    bottom: 40px;
     background-color: #653190;
-    left: 1700px;
+    left: 500px;
     justify-content: space-between;
     border-radius: 200px 0px 0px 200px;
-    width: 300px;
-    height: 150px;
+    width: 100px;
+    height: 50px;
 }
 
 #arrow2 {
     position: absolute;
-    bottom: -110px;
-    left: 1750px;
+    bottom: -50px;
+    left: 520px;
     color: rgb(255, 255, 255);
-    font-size: 175px;
+    font-size: 50px;
     padding: 5px;
     z-index: 1;
 }
@@ -206,151 +205,206 @@
 #go-back {
     color: #653190;
     font-family: 'Space Mono' , monospace;
-    bottom: 225px;
-    left: 2100px;
+    bottom: 45px;
+    left: 625px;
     position: absolute;
-    font-size: 75px;
+    font-size: 30px;
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    #box-container {
-        height: 96vh;
-        margin: 5px
-    }
-
+@media (max-width: 426px) {
     #circle1 {
-        background-color: white;
-        width: 200px;
-        height: 200px;
-        top: -100px;
-        position: absolute;
-        left: -100px;
-        border-radius: 50%;
-        z-index: 1;
-    }
-
-    #circle2 {
-        background-color: #0A0514;
         width: 150px;
         height: 150px;
-        top: -75px;
-        position: absolute;
-        left: -75px;
+        background-color: white;
         border-radius: 50%;
-        z-index: 2;
+        position: absolute;
+        top: -60px;
+        left: -60px;
+    }
+    
+    #circle2 {
+        width: 125px;
+        height: 125px;
+        background-color: #0A0514;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: -50px;
     }
 
     #circle3 {
         background-color: white;
-        width: 175px;
-        height: 175px;
-        bottom: -100px;
+        width: 125px;
+        height: 125px;
+        bottom: -50px;
         position: absolute;
-        right: -100px;
+        right: -50px;
         border-radius: 50%;
         z-index: 3;
     }
-
+    
     #circle4 {
         background-color: #0A0514;
-        width: 150px;
-        height: 150px;
-        bottom: -90px;
+        width: 100px;
+        height: 100px;
+        bottom: -40px;
         position: absolute;
-        right: -90px;
+        right: -40px;
         border-radius: 50%;
         z-index: 4;
     }
 
     #sc1 {
-        background-color: #ffffff;
         width: 10px;
         height: 10px;
+        background-color: white;
+        border-radius: 50%;
         position: absolute;
-        border-radius: 100%;
         top: 30px;
-        right:55px;
+        right: 80px;
     }
-
+    
     #sc2 {
-        background-color: #ffffff;
         width: 10px;
         height: 10px;
+        background-color: white;
+        border-radius: 50%;
         position: absolute;
-        border-radius: 100%;
+        top: 30px;
+        right: 60px;
+    }
+    
+    #sc3 {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
         top: 30px;
         right: 40px;
     }
-
-    #sc3 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 100%;
-        top: 30px;
-        right: 25px;
-    }
-
+    
     #sc4 {
-        background-color: #ffffff;
         width: 10px;
         height: 10px;
-        position: absolute;
+        background-color: white;
         border-radius: 50%;
-        bottom: 30px;
-        left: 60px;
-    }
-
-    #sc5 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
         position: absolute;
-        border-radius: 50%;
-        bottom: 30px;
-        left: 45px;
-    }
-
-    #sc6 {
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        border-radius: 50%;
         bottom: 30px;
         left: 30px;
+    }
+    
+    #sc5 {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30px;
+        left: 50px;
+    }
+    
+    #sc6 {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30px;
+        left: 70px;
+    }
+
+    #contacts {
+        font-size: 25px;
+        position: absolute;
+        color: #B544B1;
+        font-family: 'Space Mono', monospace;
+        left: 145px;
+        top: 240px;
+    }
+    
+    #pogi {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 5px #0A0514 solid;
+        position: absolute;
+        left: 125px;
+        top: 100px;
+    }
+    
+    #gmail {
+        background: #D9D9D9;
+        width: 250px;
+        height: 25px;
+        border-radius: 200px;
+        position: absolute;
+        padding-top: 5px;
+        top: 310px;
+        left: 85px;
+        font-size: 15px;
+        font-family: 'Space Mono', monospace;
+        color: #653190;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #fbicon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 230px;
+        left: 100px;
+    }
+    
+    #githubicon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 230px;
+        left: 180px;
+    }
+    
+    #igicon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 230px;
+        left: 260px;
     }
 
     #button2 {
         position: absolute;
-        bottom: 65px;
-        background-color: #ffffff;
-        left: 50px;
+        bottom: 60px;
+        background-color: #D9D9D9;
+        left: 150px;
         justify-content: space-between;
-        border-radius: 200px;
-        width: 250px;
-        height: 40px;
+        border-radius: 0px 200px 200px 0px;
+        width: 160px;
+        height: 35px;
     }
 
     #button4 {
         position: absolute;
-        bottom: 65px;
+        bottom: 60px;
         background-color: #653190;
-        left: 50px;
+        left: 80px;
         justify-content: space-between;
         border-radius: 200px 0px 0px 200px;
         width: 75px;
-        height: 40px;
+        height: 35px;
     }
 
     #arrow2 {
         position: absolute;
-        bottom: -30px;
-        left: 60px;
+        bottom: -25px;
+        left: 90px;
         color: rgb(255, 255, 255);
-        font-size: 50px;
+        font-size: 45px;
         padding: 5px;
         z-index: 1;
     }
@@ -358,73 +412,10 @@
     #go-back {
         color: #653190;
         font-family: 'Space Mono' , monospace;
-        bottom: 70px;
-        left: 170px;
+        bottom: 60px;
+        left: 190px;
         position: absolute;
         font-size: 20px;
-    }
-
-    #pogi {
-        width: 200px;
-        height: 200px;
-        border-radius: 100%;
-        position: absolute;
-        left: 90px;
-        top: 175px;
-        border: 5px black solid;
-    }
-
-    #contacts {
-        font-size: 30px;
-        position: absolute;
-        color: #B544B1;
-        left: 125px;
-        top: 360px;
-        font-family: 'Space Mono', monospace;
-    }
-
-    #gmail {
-        position: absolute;
-        top: 450px;
-        background-color: #ffffff;
-        left: 75px;
-        text-align: center;
-        border-radius: 200px;
         font-weight: bold;
-        font-size: 15px;
-        width: 250px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        height: 20px;
-    }
-
-    #fbicon {
-        width: 65px;
-        height: 65px;
-        position: absolute;
-        object-fit: cover;
-        border-radius: 50%;
-        left: 75px;
-        bottom: 290px;
-    }
-
-    #githubicon {
-        width: 65px;
-        height: 65px;
-        position: absolute;
-        object-fit: cover;
-        border-radius: 50%;
-        left: 165px;
-        bottom: 290px;
-    }
-
-    #igicon {
-        width: 65px;
-        height: 65px;
-        position: absolute;
-        object-fit: cover;
-        border-radius: 50%;
-        left: 260px;
-        bottom: 290px;
     }
 }
